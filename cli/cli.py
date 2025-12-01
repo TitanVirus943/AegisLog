@@ -88,7 +88,7 @@ def cmd_export():
         print("Error:", r.status_code, r.text)
 
 def main():
-    parser = argparse.ArgumentParser(prog="vulncli", description="LV-MTS CLI client")
+    parser = argparse.ArgumentParser(prog="cli.py", description="AegisLog")
     sub = parser.add_subparsers(dest="cmd")
 
     sub.add_parser("add")
